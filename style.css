@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+form {
+  max-width: 400px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin: 5px 0;
+}
+
+/* Tabel keranjang */
+table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td:nth-child(3),
+td:nth-child(5) {
+  text-align: left;
+}
+
+th:nth-child(3),
+th:nth-child(5) {
+  text-align: left;
+}
+
+td:nth-child(4),
+th:nth-child(4) {
+  text-align: left;
+}
+
+table button {
+  padding: 5px 10px;
+}
+
+h3 {
+  max-width: 800px;
+  text-align: left;
+}
+#uang-bayar {
+  width: 200px;
+}

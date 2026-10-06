@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini POS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Kasir & Keranjang Belanja</h1>
+
+    <form id="form-barang">
+      <div>
+        <label for="nama-barang">Nama Barang</label>
+        <input type="text" id="nama-barang" />
+        <p id="error-nama" class="error"></p>
+      </div>
+
+      <div>
+        <label for="harga-barang">Harga Satuan</label>
+        <input type="number" id="harga-barang" />
+        <p id="error-harga" class="error"></p>
+      </div>
+
+      <div>
+        <label for="qty-barang">Jumlah / Qty</label>
+        <input type="number" id="qty-barang" />
+        <p id="error-qty" class="error"></p>
+      </div>
+
+      <button type="submit">Tambah Barang</button>
+    </form>
+
+    <h2>Keranjang Belanja</h2>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Nama</th>
+          <th>Harga Satuan</th>
+          <th>Qty</th>
+          <th>Subtotal</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+
+      <tbody id="tabel-keranjang"></tbody>
+    </table>
+
+    <h3>Total: Rp <span id="total">0</span></h3>
+    <p>
+      Diskon 10% (minimal total belanja Rp50.000): Rp <span id="diskon">0</span>
+    </p>
+    <h3>Total Akhir: Rp <span id="total-akhir">0</span></h3>
+    <div>
+      <label for="uang-bayar">Uang Bayar</label>
+      <input type="number" id="uang-bayar" />
+      <p id="error-bayar" class="error"></p>
+    </div>
+
+    <h3>Kembalian: Rp <span id="kembalian">0</span></h3>
+    <button type="button" id="reset-transaksi">Transaksi Baru</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
