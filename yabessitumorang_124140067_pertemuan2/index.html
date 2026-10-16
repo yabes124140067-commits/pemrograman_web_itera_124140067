@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard Tugas Kuliah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Dashboard Tugas Kuliah</h1>
+      <p id="tanggal" class="muted"></p>
+    </div>
+    <p id="jam" class="jam"></p>
+  </header>
+
+  <main class="layout">
+    <!-- Kolom kiri: widget dari API -->
+    <aside class="side">
+      <section class="card" id="cuaca">
+        <h2>Cuaca di ITERA</h2>
+        <p class="muted">Memuat cuaca...</p>
+      </section>
+
+      <section class="card" id="kutipan">
+        <h2>Kutipan hari ini</h2>
+        <p class="muted">Memuat kutipan...</p>
+      </section>
+
+      <section class="card" id="statistik"></section>
+    </aside>
+
+    <!-- Kolom kanan: daftar tugas -->
+    <section class="card tasks">
+      <h2>Daftar Tugas</h2>
+
+      <form id="form-tugas" class="form">
+        <input type="text" id="input-judul" placeholder="Tulis tugas baru..." required>
+        <input type="text" id="input-matkul" placeholder="Mata kuliah (opsional)">
+        <input type="date" id="input-deadline">
+        <button type="submit">Tambah tugas</button>
+      </form>
+
+      <div class="filter" id="filter">
+        <button data-filter="all" class="aktif">Semua</button>
+        <button data-filter="active">Belum selesai</button>
+        <button data-filter="done">Selesai</button>
+      </div>
+
+      <ul id="daftar-tugas" class="list"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
