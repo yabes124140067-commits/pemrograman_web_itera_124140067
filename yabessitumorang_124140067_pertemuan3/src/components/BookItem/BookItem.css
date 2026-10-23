@@ -1,0 +1,8 @@
+.book-item {
+  display: flex; justify-content: space-between; align-items: center;
+  border-bottom: 1px solid #ccc; padding: 8px 0;
+}
+.book-info { display: flex; flex-direction: column; }
+.author { color: #555; font-size: 0.9rem; }
+.badge { font-size: 0.85rem; font-style: italic; }
+.book-actions { display: flex; gap: 6px; }

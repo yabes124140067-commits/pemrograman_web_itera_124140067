@@ -1,0 +1,6 @@
+.book-form { border: 1px solid #999; padding: 12px; margin-bottom: 16px; }
+.field { margin-bottom: 10px; }
+.field label { display: block; margin-bottom: 2px; }
+.field input.invalid { border: 2px solid red; }
+.error-text { color: red; font-size: 0.85rem; }
+.form-actions { display: flex; gap: 8px; }

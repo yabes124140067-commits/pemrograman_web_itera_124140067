@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #222;
+  line-height: 1.5;
+}
+.app { max-width: 800px; margin: 0 auto; padding: 16px; }
+.app-header { border-bottom: 1px solid #999; margin-bottom: 16px; padding-bottom: 8px; }
+.app-header h1 { margin: 0 0 8px; font-size: 1.6rem; }
+.app-header nav { display: flex; gap: 16px; }
+.app-header nav a { color: #0645ad; }
+.app-header nav a.active { color: #222; font-weight: bold; text-decoration: none; }
+h2 { font-size: 1.2rem; margin: 0 0 8px; }
+button { padding: 4px 12px; font-size: 0.95rem; cursor: pointer; }
+input, select { padding: 4px 6px; font-size: 0.95rem; width: 100%; box-sizing: border-box; }
