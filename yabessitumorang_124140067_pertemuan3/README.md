@@ -42,13 +42,13 @@ npm test
 ## Screenshot
 
 ### Halaman Beranda
-![Beranda](screenshots/home.png)
+![Beranda](screenshot/home.png)
 
 ### Validasi Form
-![Validasi Form](screenshots/error.png)
+![Validasi Form](screenshot/error.png)
 
 ### Halaman Statistik
-![Statistik](screenshots/stats.png)
+![Statistik](screenshot/stats.png)
 
 ## Fitur React yang Digunakan
 
