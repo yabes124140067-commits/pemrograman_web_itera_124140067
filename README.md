@@ -1,7 +1,8 @@
 # Praktikum Pengembangan Aplikasi Web - ITERA
 
-**Nama:** Yabes Situmorang
-**NIM:** 124140067
+**Nama:** Yabes Situmorang  
+**NIM:** 124140067  
+**Kelas:** RB  
 
 | Pertemuan | Tugas | Folder |
 |---|---|---|
@@ -9,3 +10,4 @@
 | 2 | Personal Dashboard (ES6+) | [yabessitumorang_124140067_pertemuan2](yabessitumorang_124140067_pertemuan2) |
 | 3 | Aplikasi Manajemen Buku Pribadi | [yabessitumorang_124140067_pertemuan3](yabessitumorang_124140067_pertemuan3) |
 | 4 | Python Dasar (BMI, Nilai Mahasiswa, Modul Matematika) | [yabessitumorang_124140067_pertemuan4](yabessitumorang_124140067_pertemuan4) |
+| 5 | Python OOP (Sistem Perpustakaan) | [yabessitumorang_124140067_pertemuan5](yabessitumorang_124140067_pertemuan5) |
